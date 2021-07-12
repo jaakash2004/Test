@@ -139,7 +139,7 @@ result = sort_function(filter_function(input_data1, filter_text), sort_field)
 assert(result == expected_output)
 
 
-# Test 5 - Filter the results test:
+# Test 5 - Filter the Input test:
 sort_field = ""
 filter_text = "med"
 
@@ -152,7 +152,7 @@ result = sort_function(filter_function(input_data1, filter_text), sort_field)
 assert(result == expected_output)
 
 
-# Test 6 - Another Filter the results test:
+# Test 6 - Another Filter the Input test:
 sort_field = ""
 filter_text = "l"
 
@@ -169,7 +169,7 @@ result = sort_function(filter_function(input_data1, filter_text), sort_field)
 assert(result == expected_output)
 
 
-# Test 7 - Filter and sort the result on the basis of "name" field:
+# Test 7 - Filter the input and sort the results on the basis of "name" field:
 sort_field = "name"
 filter_text = "l"
 
